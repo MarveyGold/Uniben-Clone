@@ -1,0 +1,146 @@
+:root{
+  --body-colour: white;
+  --background-colour: #e6e3e3;
+   
+}
+
+.darkmode{
+  --body-colour: rgb(29, 27, 27);
+  --background-colour: #0c0b0b;
+  color: white;
+}
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  background-color: var(--background-colour);
+}
+  .drawer {
+    position: fixed;
+    top:0;
+    right: -450px;
+    width: 250px;
+    height: 50%;
+    color: white;
+    overflow-y: auto;
+    padding: 10px;
+  }
+
+  /* Drawer open state */
+  .drawer.open{
+    background-color: rgb(139, 9, 190);
+    right: 0px;
+    width: min-content;
+  }
+
+  /* Drawer toggle button */
+  .drawer-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #8e0bf8;
+    border-width: 1px;
+    color: white;
+    border-radius: 6px;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .drawer a {
+    display: block;
+    color: rgb(252, 251, 251);
+    text-decoration: none;
+    padding: 10px;
+    
+  }
+
+  .drawer a:hover {
+    font-style: italic;
+    font-weight: 4.5px;
+  }
+
+.up{
+    background-color: rgb(139, 9, 190);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.drawer{
+    display: list-item;
+}
+.drawer .open{
+    display: block;
+}
+.form{
+  padding: 10px;
+  font-weight: bold;
+  background-color: var(--body-colour);
+  margin: 20px;
+  border-radius: 10px;
+  margin-top: 60px;
+}
+.form:hover{
+  box-shadow: 5px 5px 5px 5px rgb(43, 41, 41);
+}
+.put{
+  width: 60%;
+  
+}
+.psw{
+  margin-right: 45px;
+}
+.put0{
+  width: 60%;
+  
+}
+.fin{
+  font-size: smaller;
+  color: red;
+  padding: -10px;
+  display: flex;
+  justify-content: right;
+  margin-right: 62%;
+}
+.th{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  background-color: aqua;
+  width: 6.5rem;
+  height: 50px;
+  border-radius: 50px;
+  position: relative;
+}
+
+.bxs-moon::before{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  border-radius: 5rem;
+  background-color: #e6e3e3;
+
+}
+.ico:checked + .bxs-moon::before{
+  transform: translateX(3.5rem);
+  content: '';
+}
+.ico{
+  display: none;
+}
+a{
+  font-size: medium;
+}
