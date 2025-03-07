@@ -110,6 +110,8 @@ body {
   display: flex;
   justify-content: right;
   margin-right: 62%;
+  white-space: nowrap;
+  width: 95vw;
 }
 .th{
   width: 100%;
