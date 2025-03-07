@@ -21,7 +21,7 @@ body {
   .drawer {
     position: fixed;
     top:0;
-    right: -450px;
+    display: none;
     width: 250px;
     height: 50%;
     color: white;
@@ -34,6 +34,7 @@ body {
     background-color: rgb(139, 9, 190);
     right: 0px;
     width: min-content;
+    display: block;
   }
 
   /* Drawer toggle button */
