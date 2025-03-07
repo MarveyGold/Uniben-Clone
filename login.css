@@ -19,7 +19,7 @@ body {
   background-color: var(--background-colour);
 }
   .drawer {
-    position: fixed;
+    position: absolute;
     top:0;
     right: -450px;
     width: 250px;
@@ -143,4 +143,8 @@ body {
 }
 a{
   font-size: medium;
+}
+p{
+  padding: 10px;
+  margin: 20px;
 }
