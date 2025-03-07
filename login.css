@@ -39,7 +39,7 @@ body {
 
   /* Drawer toggle button */
   .drawer-toggle {
-    position: fixed;
+    position: absolute;
     top: 20px;
     right: 20px;
     background-color: #8e0bf8;
