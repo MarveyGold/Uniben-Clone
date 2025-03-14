@@ -106,10 +106,9 @@ body {
 .fin{
   font-size: smaller;
   color: red;
-  padding: -10px;
+  padding: 10px;
   display: flex;
   justify-content: right;
-  white-space: nowrap;
 }
 .th{
   width: 100%;
